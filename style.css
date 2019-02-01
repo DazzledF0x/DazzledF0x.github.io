@@ -1,0 +1,39 @@
+* {
+	font-family: Verdana;
+	margin: 0;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+nav li {
+	float: right;
+	background-color: #333;
+}
+nav li a {
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+	background-color: #4CAF50;
+}
+.logo {
+	float: left;
+	font-size: 18px;
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	text-align: center;
+}
